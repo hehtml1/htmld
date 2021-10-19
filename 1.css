@@ -1,0 +1,13 @@
+#grid{
+  border: 3px white solid;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+div{
+ border:3px black solid;
+}
+@media(max-width:800px){
+ #gird{
+   display: block;
+ }
+}
